@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Empleado, EmpleadosService } from 'src/app/servicios/empleados.service';
+import { Empleado } from 'src/app/model/empleados.model';
+import { EmpleadosService } from 'src/app/servicios/empleados.service';
 
 @Component({
   selector: 'app-contactos',
