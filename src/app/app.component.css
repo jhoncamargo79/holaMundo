@@ -1,0 +1,33 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.margen{
+  margin-top: 10px;
+}
+
+.contenedor{
+  display: flex;
+  justify-content:space-around;
+}
+
+.logo{
+  width: 50px;
+  margin: 2px;
+}
+
+a{
+  background-color: #ff5733 ;
+  color: #f2f2f2;
+   padding: 10px 16px;
+   text-decoration: none;
+   font-size: 1.2rem;
+}
+
+a:hover{
+  background-color: #ddd;
+  color:black;
+  cursor:pointer;
+}
+
