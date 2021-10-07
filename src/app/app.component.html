@@ -1,5 +1,5 @@
 
-<div class="contenedor">
+<!-- <div class="contenedor">
 
   <img class="logo" src="../assets/logo.png" />
 
@@ -15,7 +15,23 @@
 
 
 
-</div>
+</div> -->
 
+<div class="container">
+
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <img class="logo" src="../assets/logo.png" />
+    <div class="d-flex">
+    <button routerLink="/inicio" routerLinkActive="active" class="btn btn-outline-success" type="submit">inicio</button>
+    <button routerLink="/perfil" routerLinkActive="active" class="btn btn-outline-success" type="submit">noticias</button>
+    <button routerLink="/contactos" routerLinkActive="active" class="btn btn-outline-success" type="submit">contactos</button>
+
+    <button routerLink="/login" routerLinkActive="active" class="btn btn-outline-success" type="submit">Login</button>
+    </div>
+  </div>
+</nav>
+
+</div>
 
 <router-outlet></router-outlet>

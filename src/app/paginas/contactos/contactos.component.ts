@@ -7,14 +7,14 @@ import { Empleado, EmpleadosService } from 'src/app/servicios/empleados.service'
   styleUrls: ['./contactos.component.css']
 })
 export class ContactosComponent implements OnInit {
-  contactos : Empleado[] = [];
+  empleados : Empleado[] = [];
 
   constructor(private empleadosService : EmpleadosService) {
 
    }
 
   ngOnInit(): void {
-    this.contactos = this.empleadosService.getEmpleados();
+    this.empleados = this.empleadosService.getEmpleados();
     }
 
 }

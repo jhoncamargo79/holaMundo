@@ -8,6 +8,7 @@ import { ContactosComponent } from './paginas/contactos/contactos.component';
 import { LoginComponent } from './paginas/login/login.component';
 import { PaginaNoExisteComponent } from './paginas/pagina-no-existe/pagina-no-existe.component';
 import { PerfilComponent } from './paginas/perfil/perfil.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PerfilComponent } from './paginas/perfil/perfil.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

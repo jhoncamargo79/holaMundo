@@ -1,4 +1,4 @@
-*{
+/* *{
   padding: 0px;
   margin: 0px;
 }
@@ -30,4 +30,10 @@ a:hover{
   color:black;
   cursor:pointer;
 }
+ */
 
+
+ .logo{
+  width: 45px;
+  margin: 2px;
+}
